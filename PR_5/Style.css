@@ -1,0 +1,18 @@
+html {
+    background-color: #000000;
+}
+body {
+    background-color: rgba(34, 58, 140, 0.6);
+    width: 600px;
+    border: 2px solid #ffffff;
+    padding: 2px 35px 30px 30px;
+    margin: 0 auto;
+}
+h1 {
+    color: #000000;
+}
+img {
+    width: 50%;
+    margin: 0 auto;
+    padding: 45px 20px 20px 130px;
+}
