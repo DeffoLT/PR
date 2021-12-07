@@ -1,0 +1,130 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: #adade1;
+    border: 10px brown;
+    border-radius: 45px;
+    padding: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+
+.wrapper > div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(76, 91, 74);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.box2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box4 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.box5 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nested1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nested2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nested3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexwrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-auto-rows: 200px;
+}
+
+.flexbox1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexbox2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexbox3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.gridwrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-auto-rows: 200px;
+}
+
+.gridbox1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.gridbox2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.gridbox3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
